@@ -19,7 +19,7 @@ allprojects {
     version = '0.1.2'
     ext {
         appName = 'Overlap2D'
-        gdxVersion = '1.7.1'
+        gdxVersion = '1.8.0'
         box2DLightsVersion = '1.4'
         visuiVersion = '0.9.2'
 
@@ -28,7 +28,7 @@ allprojects {
     }
 
     repositories {
-        mavenLocal()
+        //mavenLocal()
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url "https://oss.sonatype.org/content/repositories/releases/" }

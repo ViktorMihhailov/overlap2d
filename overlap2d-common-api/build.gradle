@@ -3,8 +3,8 @@ apply plugin: "java"
 sourceSets.main.java.srcDirs = [ "src/" ]
 
 ext {
-    gdxVersion = '1.7.0'
-    ashleyVersion = '1.5.0'
+    gdxVersion = '1.8.0'
+    ashleyVersion = '1.7.1'
 }
 
 dependencies {
@@ -34,5 +34,5 @@ repositories {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.6'
+    gradleVersion = '2.10'
 }
