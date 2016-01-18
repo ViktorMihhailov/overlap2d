@@ -1,16 +1,14 @@
 package com.uwsoft.editor.view.ui.dialog;
 
-import com.badlogic.gdx.Gdx;
-import com.kotcrab.vis.ui.VisUI;
-import com.runner.LibgdxRunner;
-import com.runner.NeedGL;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import com.runner.LibgdxRunner;
+import com.runner.NeedGL;
 
 @RunWith(LibgdxRunner.class)
 public class NewProjectDialogTest {

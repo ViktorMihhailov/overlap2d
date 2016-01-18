@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.hasItem;
+import static org.junit.matchers.JUnitMatchers.*;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
